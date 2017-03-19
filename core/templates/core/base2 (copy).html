@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+{% load cloudinary %}
+<html>
+<head>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+	<link rel="stylesheet" href="{% static 'css/confiam.css' %}">
+	<p class="listra"><h1>ConfiamXIII - O 13º Congresso de Física Aplicada à Medicina</h1></p>
+</head>
+<body>
+	<table style="width: 100%" border="4">
+		  <tr>	
+			<th><p><h2><a href="{% url 'core:palestrantes' %}"><button class="btn1">Palestrantes</button></a></h2></p></th>
+		  </tr>
+		  <tr>
+		  	<p><h2><a href="{% url 'core:palestras' %}"><button class="btn2">Palestras</button></a></h2></p>
+		  </tr>
+		  <tr>
+		  	<p><h2><a href="{% url 'core:minicursos' %}"><button class="btn3">Mini-Cursos</button></a></h2></p>
+		  </tr>
+		  <tr>
+		  	<p><h2><a href="{% url 'core:patrocinio' %}"><button class="btn4">Patrocinadores</button></a></h2></p> 
+		  </tr>
+		  <tr>
+		  	<p><h2><a href="{% url 'core:restaurantes' %}"><button class="btn5">Restaurantes</button></a></h2></p>
+		  </tr>
+		  <tr>
+		  	<p><h2><a href="{% url 'core:hoteis' %}"><button class="btn6">Hotéis</button></a></h2></p>
+		  </tr>
+		  <tr>
+		  	<p><h2><button class="btn7">Inscreva-se</button></h2></p>
+		  </tr>
+		</table>
+	{% block content %}
+	{% endblock %}
+</body>
+</html>

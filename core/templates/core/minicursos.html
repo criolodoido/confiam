@@ -1,0 +1,22 @@
+<head>
+	{% extends 'core/base.html' %}
+	{% load cloudinary %}
+	{% load staticfiles %}
+	{% block content %}
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+	<link rel="stylesheet" href="{% static 'css/hoteis.css' %}">
+</head>
+<body>
+	{% for post in posts %}
+		<div class=item>
+			<p><h1>{{ post.nome_minicurso }}</h1></p>
+			<picture>{% cloudinary post.foto_minicurso %}</picture>
+			<p><h2>{{ post.apresentacao_minicurso }}</h2></p>
+			<br>
+		</div>
+	{% endfor %}
+</body>
+{% endblock %}
