@@ -1,1 +1,1 @@
-web: gunicorn barraca.wsgi --log-file -
+web: gunicorn confiam.wsgi --log-file -
