@@ -1,8 +1,14 @@
+table {
+	border-collapse: collapse;
+    width: 95%;
+}
+
 .item {
-	width: 97%;
+	width: 90%;
 	height: auto;
 	border: 5px solid black;
 	margin: 0 auto;
+	white-space: pre-wrap;
 }
 .item h1 {
 	font-family: 'Lobster';
@@ -22,10 +28,6 @@
 	text-align: center
 }
 
-.item{
-	white-space: pre-wrap;
-
-}
 .item picture{
 	display: block;
 	margin: auto;
