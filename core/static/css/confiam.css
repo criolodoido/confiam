@@ -10,18 +10,19 @@ h2{
 table {
 	border-collapse: collapse;
     width: 100%;
-    height: auto;
-    min-height: 100%;
-    position: relative;
+    border: 1px solid #ddd;
+    margin: 0;
 }
 
 .nome {
 	font-size: 250%;
 	font-family: 'Lobster';
+	margin: 0;
 }
 
 .apresenta {
 	font-size: 200%;
+	margin: 0;
 }
 
 .logo img{
@@ -29,6 +30,7 @@ table {
 	margin: auto;   
   	width: 100%;   
   	height: auto; 
+  	margin: 0;
 }
 
 .btn1{
