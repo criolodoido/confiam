@@ -14,8 +14,8 @@
 <body>
 	<table>	
 			<tr>
-				<td><h2><a href="{% url 'core:sobre' %}"><button class="btn1">Sobre</button></a></h2></td>
-			  	<td><h2><a href="{% url 'core:palestras' %}"><button class="btn2">Palestras<br />Palestrantes</button></a></h2></td>
+				<td><h2><a href="{% url 'core:palestrantes' %}"><button class="btn1">Palestrantes</button></a></h2></td>
+			  	<td><h2><a href="{% url 'core:palestras' %}"><button class="btn2">Palestras</button></a></h2></td>
 			  	<td><h2><a href="{% url 'core:minicursos' %}"><button class="btn3">Minicursos</button></a></h2></td>
 			  	<td><h2><a href="{% url 'core:restaurantes' %}"><button class="btn4">Restaurantes</button></a></h2></td> 
 			  	<td><h2><a href="{% url 'core:patrocinio' %}"><button class="btn5">Patrocínios</button></a></h2></td>
@@ -26,6 +26,5 @@
 	{% block content %}
 
 	{% endblock %}
-	<footer></footer>
 </body>
 </html>

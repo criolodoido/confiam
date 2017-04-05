@@ -3,7 +3,7 @@ from django.db import models
 from django.utils import timezone
 from cloudinary.models import CloudinaryField
 
-class Palestrantes(models.Model):
+class Sobre(models.Model):
 	nome = models.CharField(max_length=200, null=False, blank=False)
 	apresentacao = models.TextField(null=False, blank=False)
 	foto = CloudinaryField('foto', null=True, blank=True)
@@ -15,9 +15,9 @@ class Palestrantes(models.Model):
 		return self.nome
 
 class Palestras(models.Model):
-	nome_palestra = models.CharField(max_length=200, null=False, blank=False)
-	apresentacao_palestra = models.TextField(null=False, blank=False)
-	foto_palestra = CloudinaryField('foto_palestra', null=True, blank=True)
+	nome_palestrante = models.CharField(max_length=200, null=False, blank=False)
+	sua_palestra = models.TextField(null=False, blank=False)
+	foto_palestrante = CloudinaryField('foto_palestra', null=True, blank=True)
 
 	def publish(self):
 		self.save()

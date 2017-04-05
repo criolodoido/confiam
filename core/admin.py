@@ -1,7 +1,7 @@
 from django.contrib import admin
-from .models import Palestrantes, Restaurantes, Patrocinio, Palestras, Minicursos, Hoteis, Evento
+from .models import Sobre, Restaurantes, Patrocinio, Palestras, Minicursos, Hoteis, Evento
 
-admin.site.register(Palestrantes)
+admin.site.register(Sobre)
 admin.site.register(Restaurantes)
 admin.site.register(Patrocinio)
 admin.site.register(Palestras)

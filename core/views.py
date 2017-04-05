@@ -1,14 +1,14 @@
 from django.shortcuts import render
 from django.utils import timezone
-from .models import Palestrantes, Palestras, Minicursos, Restaurantes, Patrocinio, Hoteis, Evento
+from .models import Sobre, Palestras, Minicursos, Restaurantes, Patrocinio, Hoteis, Evento
 
 def index(request):
 	posts = Evento.objects.all()
 	return render(request, 'core/index.html', {'posts': posts})
 
-def palestrantes(request):
-	posts = Palestrantes.objects.all()
-	return render(request, 'core/palestrantes.html', {'posts': posts})
+def sobre(request):
+	posts = Sobre.objects.all()
+	return render(request, 'core/sobre.html', {'posts': posts})
 
 def palestras(request):
 	posts = Palestras.objects.all()

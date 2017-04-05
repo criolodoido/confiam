@@ -1,0 +1,43 @@
+table {
+	border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.item {
+	width: 90%;
+	height: auto;
+	border: 5px solid black;
+	margin: 0 auto;
+	white-space: pre-wrap;
+}
+.item h1 {
+	font-family: 'Lobster';
+	margin: 0 auto;
+	position: relative;
+	padding:20px;
+	word-wrap: break-word;
+	text-align: center
+}
+
+.item h2 {
+	font-family: 'Lobster';
+	position: relative;
+	margin: 0 auto;
+	padding:20px;
+	word-wrap: break-word;
+	text-align: center
+}
+
+.item picture{
+	display: block;
+	margin: auto;
+	width: 50%;
+	height: auto;
+	padding:1px;
+	position: relative;
+	right: 0%;
+	border:2px solid #021a40;
+	background-color: yellow;
+}

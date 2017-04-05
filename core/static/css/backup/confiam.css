@@ -1,0 +1,114 @@
+h1{
+	font-family: 'Lobster';
+	margin: 0;
+}
+h2{
+	font-family: 'Kalam', cursive;
+	margin: 0;
+}
+
+table {
+	border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    margin: 0;
+}
+
+.nome {
+	font-size: 250%;
+	font-family: 'Lobster';
+	margin: 0;
+}
+
+.apresenta {
+	font-size: 200%;
+	margin: 0;
+}
+
+.logo img{
+	display: hidden;
+	margin: auto;   
+  	width: 100%;   
+  	height: auto; 
+  	margin: 0;
+}
+
+.btn1{
+	background-color: #D9D6CF;
+	border-radius: 30%;
+	width: 100%;
+	height: auto;
+}
+.btn1:hover {
+	background-color: #FEFEFE;
+	text-decoration: none;
+	width: 100%;
+	height: auto;
+}
+.btn2{
+	background-color: #D9D6CF;
+	border-radius: 30%;
+	width: 100%;
+	height: auto;
+}
+.btn2:hover {
+	background-color: #FEFEFE;
+	text-decoration: none;
+	width: 100%;
+	height: auto;
+}
+.btn3{
+	background-color: #D9D6CF;
+	border-radius: 30%;
+	width: 100%;
+	height: auto;
+}
+.btn3:hover {
+	background-color: #FEFEFE;
+	width: 100%;
+	height: auto;
+}
+.btn4{
+	background-color: #D9D6CF;
+	border-radius: 30%;
+	width: 100%;
+	height: auto;
+}
+.btn4:hover {
+	background-color: #FEFEFE;
+	width: 100%;
+	height: auto;
+}
+.btn5{
+	background-color: #D9D6CF;
+	border-radius: 30%;
+	width: 100%;
+	height: auto;
+}
+.btn5:hover {
+	background-color: #FEFEFE;
+	width: 100%;
+	height: auto;
+}
+.btn6{
+	background-color: #D9D6CF;
+	border-radius: 30%;
+	width: 100%;
+	height: auto;
+}
+.btn6:hover{
+	background-color: #FEFEFE;
+	width: 100%;
+	height: auto;
+}
+.btn7{
+	background-color: #D9D6CF;
+	border-radius: 30%;
+	width: 100%;
+	height: auto;
+}
+.btn7:hover{
+	background-color: #FEFEFE;
+	width: 100%;
+	height: auto;
+}
