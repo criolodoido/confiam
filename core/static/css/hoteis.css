@@ -13,7 +13,7 @@ table {
 	white-space: pre-wrap;
 }
 .item h1 {
-	font-family: 'Lobster';
+	font-family: 'Kurale';
 	margin: 0 auto;
 	position: relative;
 	padding:20px;
@@ -22,7 +22,7 @@ table {
 }
 
 .item h2 {
-	font-family: 'Lobster';
+	font-family: 'Kurale', serif;
 	position: relative;
 	margin: 0 auto;
 	padding:20px;
