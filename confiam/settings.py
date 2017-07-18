@@ -1,5 +1,5 @@
 """
-more information on this file, see
+his file, see
 https://docs.djangoproject.com/en/1.10/topics/settings/
 
 For the full list of settings and their values, see
