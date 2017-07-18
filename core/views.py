@@ -8,7 +8,7 @@ def index(request):
 
 def sobre(request):
 	posts = Sobre.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
-	return render(request, 'core/sobre.html', {'posts': posts})
+	return render(request, 'core/programacao.html', {'posts': posts})
 
 def palestras(request):
 	posts = Palestras.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
