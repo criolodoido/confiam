@@ -10,7 +10,9 @@ table {
     margin: 0;
 }
 
-
+p{
+	text-align:justify;
+}
 .nome {
 	font-size: 250%;
 	font-family: 'Kurale';
@@ -155,6 +157,7 @@ footer{
 
 .item h2{
 	font-family: 'Kurale', serif;
+	white-space: pre-line;
 	position: relative;
 	margin: 0 auto;
 	padding:20px;
