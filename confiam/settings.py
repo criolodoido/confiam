@@ -1,5 +1,4 @@
 """
-Django settings for confiam project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.10/topics/settings/
