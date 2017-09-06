@@ -8,6 +8,10 @@
 			<center><picture>{% cloudinary post.foto_palestrante %}</picture></center>
 			<p><h2>{{ post.sua_palestra }}</h2></p>
 			<br>
+			<div class="fb-comments" data-href="www.testsite.com/testpage" data-width="470" data-num-posts="10"></div>
 		</div>
+		<script>
+    		$(".fb-comments").attr("data-href", window.location.href);
+		</script>
 	{% endfor %}
 {% endblock %}

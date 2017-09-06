@@ -7,9 +7,7 @@
 			<p><h1>{{ post.nome_patrocinio }}</h1></p>
 			<center><picture>{% cloudinary post.foto_patrocinio %}</picture></center>
 			<p><h2>{{ post.apresentacao_patrocinio }}</h2></p>
-			<div class="fb-comments" data-href= "{{ post.patrocinio }}" data-numposts="5"></div>
 			<br>
 		</div>
-			
 	{% endfor %}
 {% endblock %}
